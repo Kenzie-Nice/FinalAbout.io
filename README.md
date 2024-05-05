@@ -8,12 +8,10 @@
     <style>
         /* Your existing CSS styles */
         body {
-      body {
-    background-image: url('your-background-image.jpg'); /* Specify the path to your background image */
-    background-size: cover;
-    background-position: center;
-    font-size: 420px;
-}
+            background-image: url('depositphotos_424626210-stock-photo-autumn-leaves-in-a-puddle.jpg'); /* Specify the path to your background image */
+            background-size: cover;
+            background-position: center;
+            font-size: 420px;
         }
         .blue {
             color: blue;
@@ -33,11 +31,19 @@
         ul, ol {
             margin-left: 20px;
         }
+        /* CSS for the image */
+        .photo {
+            display: block;
+            margin: 20px auto; /* Adjust the margin as needed */
+            max-width: 400px; /* Adjust the maximum width as needed */
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        We are coffee...coffee is us...coffee is life....<span class="blue">42</span>!
+        <p>We are just a girl who enjoys a rainy day with high-quality tea. (or coffee if it is morning) We own a bunny and live our days together against the world. Somehow, it's been working that way for us. But we take it one day at a time. <span class="blue">42</span>!</p>
+        <img src="271934261_1121549905284593_3734357937623208671_n.jpg" alt="Ralphie" class="photo"> <!-- Specify the path to your photo -->
     </div>
 
     <!-- Your existing footer -->
@@ -48,3 +54,4 @@
     </ul>
 </body>
 </html>
+
